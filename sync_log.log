@@ -1,0 +1,351 @@
+2024-10-22 14:59:38,992 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-10-22 14:59:40,042 - INFO - Detected new file: C:\Users\Nathan\Downloads\google drive uploader bat\REFERRAL PAGE.docx
+2024-10-22 15:01:10,693 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-10-22 15:01:11,700 - INFO - Detected new file: C:\Users\Nathan\Downloads\google drive uploader bat\Presentation copy.pptx
+2024-10-22 15:01:15,671 - ERROR - Failed to upload Presentation copy.pptx: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2570)
+2024-10-22 15:01:15,674 - ERROR - Failed to download Presentation copy.pptx: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2570)
+2024-10-22 15:01:15,708 - INFO - Detected new file: C:\Users\Nathan\Downloads\google drive uploader bat\Personal Vault.lnk
+2024-10-22 15:01:17,002 - ERROR - Failed to upload Personal Vault.lnk: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2570)
+2024-10-22 15:01:17,004 - ERROR - Failed to download Personal Vault.lnk: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2570)
+2024-10-22 15:01:17,016 - INFO - Detected new file: C:\Users\Nathan\Downloads\google drive uploader bat\Getting started with OneDrive.pdf
+2024-10-22 15:01:18,744 - INFO - Uploaded Getting started with OneDrive.pdf to Google Drive (ID: 1BD5oZYpAV0vl21V3NlJ6ayTR5qUY1btJ)
+2024-10-22 15:07:15,764 - INFO - Successfully authenticated with Google Drive.
+2024-10-22 15:07:15,771 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-10-22 15:07:16,749 - INFO - Detected new file: C:\Users\Nathan\Downloads\google drive uploader bat\Document.docx
+2024-10-22 15:07:17,657 - ERROR - Failed to download Document.docx: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2570)
+2024-10-22 15:07:17,658 - ERROR - Failed to upload Document.docx: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2570)
+2024-10-22 15:07:17,678 - INFO - Detected new file: C:\Users\Nathan\Downloads\google drive uploader bat\Document 1.docx
+2024-10-22 15:07:18,988 - ERROR - Failed to upload Document 1.docx: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2570)
+2024-10-22 15:07:18,989 - ERROR - Failed to download Document 1.docx: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2570)
+2024-10-22 15:07:19,006 - INFO - Detected new file: C:\Users\Nathan\Downloads\google drive uploader bat\Case study chapter 9.docx
+2024-10-22 15:07:20,148 - INFO - Downloaded Case study chapter 9.docx (100%)
+2024-10-22 15:07:20,152 - INFO - Deleted credentials.json from local folder
+2024-10-22 15:07:20,156 - INFO - Deleted drive_sync_service.py from local folder
+2024-10-22 15:07:20,158 - INFO - Deleted enhanced_auto_sync_to_drive.py from local folder
+2024-10-22 15:07:20,160 - ERROR - Error syncing Drive to local: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\Nathan\\Downloads\\google drive uploader bat\\sync_log.log'
+2024-10-22 15:08:19,128 - ERROR - Failed to upload Case study chapter 9.docx: The read operation timed out
+2024-10-22 15:08:19,129 - INFO - Detected modification: C:\Users\Nathan\Downloads\google drive uploader bat\Case study chapter 9.docx
+2024-10-22 15:23:31,070 - INFO - Successfully authenticated with Google Drive.
+2024-10-22 15:23:31,077 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-10-22 15:23:31,084 - INFO - Started monitoring local folder for changes.
+2024-10-22 15:23:31,096 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:24:17,949 - INFO - Deleted Case study chapter 9.docx from local folder.
+2024-10-22 15:24:18,079 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Case study chapter 9.docx
+2024-10-22 15:24:18,087 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Case+study+chapter+9.docx%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:24:19,008 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1QeF-VX6GP1hJCf5DZGQkCw9KxlbtgeS9?
+2024-10-22 15:24:19,820 - INFO - Deleted file with ID 1QeF-VX6GP1hJCf5DZGQkCw9KxlbtgeS9 from Google Drive.
+2024-10-22 15:25:06,963 - INFO - Deleted Document 1.docx from local folder.
+2024-10-22 15:25:07,075 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Document 1.docx
+2024-10-22 15:25:07,081 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Document+1.docx%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:25:07,554 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1xWOa7mqcJ3MSA1rfA9BC8i15XH53V8xR?
+2024-10-22 15:25:07,916 - INFO - Deleted file with ID 1xWOa7mqcJ3MSA1rfA9BC8i15XH53V8xR from Google Drive.
+2024-10-22 15:25:52,730 - INFO - Deleted Document.docx from local folder.
+2024-10-22 15:25:52,842 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Document.docx
+2024-10-22 15:25:52,847 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Document.docx%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:25:53,645 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1x90gd09gtWJlAOzxkQSzqnCmq78A5yZ_?
+2024-10-22 15:25:53,913 - INFO - Deleted file with ID 1x90gd09gtWJlAOzxkQSzqnCmq78A5yZ_ from Google Drive.
+2024-10-22 15:26:37,447 - INFO - Deleted Getting started with OneDrive.pdf from local folder.
+2024-10-22 15:26:37,554 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Getting started with OneDrive.pdf
+2024-10-22 15:26:37,559 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Getting+started+with+OneDrive.pdf%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:26:38,028 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1BD5oZYpAV0vl21V3NlJ6ayTR5qUY1btJ?
+2024-10-22 15:26:38,509 - INFO - Deleted file with ID 1BD5oZYpAV0vl21V3NlJ6ayTR5qUY1btJ from Google Drive.
+2024-10-22 15:27:22,929 - INFO - Deleted Personal Vault.lnk from local folder.
+2024-10-22 15:27:23,062 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Personal Vault.lnk
+2024-10-22 15:27:23,068 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Personal+Vault.lnk%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:27:23,528 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1EqpL8mwchL6sZIIctiqio7t0IJc5f6m_?
+2024-10-22 15:27:24,002 - INFO - Deleted file with ID 1EqpL8mwchL6sZIIctiqio7t0IJc5f6m_ from Google Drive.
+2024-10-22 15:32:49,424 - INFO - Successfully authenticated with Google Drive.
+2024-10-22 15:32:49,434 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-10-22 15:32:49,443 - INFO - Started monitoring local folder for changes.
+2024-10-22 15:32:49,456 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:33:45,867 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Presentation copy.pptx
+2024-10-22 15:33:45,871 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Presentation+copy.pptx%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:33:45,872 - INFO - Deleted Presentation copy.pptx from local folder.
+2024-10-22 15:33:46,417 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1DiMf7CX_ye-uUPr46EYvazuF2-aPMs7a?
+2024-10-22 15:33:46,899 - INFO - Deleted file with ID 1DiMf7CX_ye-uUPr46EYvazuF2-aPMs7a from Google Drive.
+2024-10-22 15:34:35,577 - INFO - Deleted REFERRAL PAGE.docx from local folder.
+2024-10-22 15:34:35,577 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\REFERRAL PAGE.docx
+2024-10-22 15:34:35,697 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27REFERRAL+PAGE.docx%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:34:36,567 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1LGbb4z4sqqnDRSFsv9F398KgsvyALEoV?
+2024-10-22 15:34:37,568 - INFO - Deleted file with ID 1LGbb4z4sqqnDRSFsv9F398KgsvyALEoV from Google Drive.
+2024-10-22 15:35:27,270 - INFO - Deleted Remove-EdgeWeb.exe from local folder.
+2024-10-22 15:35:27,393 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Remove-EdgeWeb.exe
+2024-10-22 15:35:27,398 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Remove-EdgeWeb.exe%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:35:27,890 - WARNING - No matching file found in Drive for deletion: Remove-EdgeWeb.exe
+2024-10-22 15:36:06,620 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\sync_log.log
+2024-10-22 15:36:06,627 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27sync_log.log%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:36:06,841 - WARNING - No matching file found in Drive for deletion: sync_log.log
+2024-10-22 15:36:06,842 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\test 1.txt
+2024-10-22 15:36:07,295 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27test+1.txt%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:36:07,589 - WARNING - No matching file found in Drive for deletion: test 1.txt
+2024-10-22 15:36:23,711 - ERROR - Error syncing Drive to local: [WinError 2] The system cannot find the file specified: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\test 1.txt'
+2024-10-22 15:36:24,201 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-22 15:36:24,202 - ERROR - Failed to upload Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx: [Errno 13] Permission denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx'
+2024-10-22 15:36:24,202 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-22 15:36:24,203 - ERROR - Failed to upload Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx: [Errno 13] Permission denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx'
+2024-10-22 15:36:24,214 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-22 15:36:24,215 - ERROR - Failed to upload Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx: [Errno 13] Permission denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx'
+2024-10-22 15:36:25,477 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\FInal APA Research Paper.docx
+2024-10-22 15:36:25,478 - ERROR - Failed to upload FInal APA Research Paper.docx: [Errno 13] Permission denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\FInal APA Research Paper.docx'
+2024-10-22 15:36:25,480 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\FInal APA Research Paper.docx
+2024-10-22 15:36:25,481 - ERROR - Failed to upload FInal APA Research Paper.docx: [Errno 13] Permission denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\FInal APA Research Paper.docx'
+2024-10-22 15:36:25,482 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\FInal APA Research Paper.docx
+2024-10-22 15:36:25,674 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:26,882 - INFO - Uploaded FInal APA Research Paper.docx to Google Drive (ID: 1OPWj2QY7bgjBA2HxhsdSP9vNwl4hp64V)
+2024-10-22 15:36:26,882 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Healthcare rationing.docx
+2024-10-22 15:36:26,921 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:27,937 - INFO - Uploaded Healthcare rationing.docx to Google Drive (ID: 1mPMsiHJImoLFnQxUw5EqWYofxjSM6f0k)
+2024-10-22 15:36:27,938 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Healthcare rationing.docx
+2024-10-22 15:36:27,950 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:29,201 - INFO - Uploaded Healthcare rationing.docx to Google Drive (ID: 1b7A53ekxe8wWlYbJlPPLGaBwvSR9dAdC)
+2024-10-22 15:36:29,202 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\pt-2-final.pptx
+2024-10-22 15:36:29,255 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:33,126 - INFO - Uploaded pt-2-final.pptx to Google Drive (ID: 1JV8ESyI67CwbUmbn-uKEXgBRrVriEvHx)
+2024-10-22 15:36:33,126 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\pt-2-final.pptx
+2024-10-22 15:36:33,138 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:35,158 - INFO - Uploaded pt-2-final.pptx to Google Drive (ID: 1eU_6qL_Glz2T5H5mMng8xxbhsGW_LPFJ)
+2024-10-22 15:36:35,159 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\FInal APA Research Paper.docx
+2024-10-22 15:36:35,171 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:36,142 - INFO - Uploaded FInal APA Research Paper.docx to Google Drive (ID: 1S2t3K7ojBODA3HRWczKOIslJMcX8OanG)
+2024-10-22 15:36:36,142 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Week 2 Assignment - Ethics.docx
+2024-10-22 15:36:36,162 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:37,234 - INFO - Uploaded Week 2 Assignment - Ethics.docx to Google Drive (ID: 1WfDsHXJXgP3et50P9z4qXYRZ0Kyh8tCR)
+2024-10-22 15:36:37,234 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Week 2 Assignment - Ethics.docx
+2024-10-22 15:36:37,252 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:38,231 - INFO - Uploaded Week 2 Assignment - Ethics.docx to Google Drive (ID: 1GCiP8ES1IGdoumTNROsqM2fFI1OncWmQ)
+2024-10-22 15:36:38,232 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\work cited capstone.docx
+2024-10-22 15:36:38,242 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:39,279 - INFO - Uploaded work cited capstone.docx to Google Drive (ID: 1_z2USBKOb0f83-8rPdxEioiQkGnIt9xQ)
+2024-10-22 15:36:39,279 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\work cited capstone.docx
+2024-10-22 15:36:39,286 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:40,367 - INFO - Uploaded work cited capstone.docx to Google Drive (ID: 1xOhQxkUddy9Rzofa7VWMjcqAerf863N2)
+2024-10-22 15:36:40,368 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-22 15:36:40,383 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:45,091 - INFO - Uploaded Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx to Google Drive (ID: 1_LIhwGf0FR-Ansx33h9pJGbGzWmvud0y)
+2024-10-22 15:36:45,091 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Healthcare rationing.docx
+2024-10-22 15:36:45,108 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:46,075 - INFO - Uploaded Healthcare rationing.docx to Google Drive (ID: 1Y_CgVwgQln3LodRuoafM5Vz-LML_WJQP)
+2024-10-22 15:36:46,076 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\FInal APA Research Paper.docx
+2024-10-22 15:36:46,084 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:47,139 - INFO - Uploaded FInal APA Research Paper.docx to Google Drive (ID: 1Cim9rFKMK_cl_XuOR0HxXndtpLnCovVM)
+2024-10-22 15:36:47,139 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Week 2 Assignment - Ethics.docx
+2024-10-22 15:36:47,145 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:48,164 - INFO - Uploaded Week 2 Assignment - Ethics.docx to Google Drive (ID: 1rFsR_80iJ0PUHzHrHQbLjMvxAiBmBA79)
+2024-10-22 15:36:48,164 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\work cited capstone.docx
+2024-10-22 15:36:48,177 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:36:49,121 - INFO - Uploaded work cited capstone.docx to Google Drive (ID: 18jVxD22RdgtHsOzduoeKPamPxTeWvqrw)
+2024-10-22 15:37:01,276 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\pt-2-final.pptx
+2024-10-22 15:37:01,295 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-22 15:37:03,422 - INFO - Uploaded pt-2-final.pptx to Google Drive (ID: 1LgecxTZSZVph-xuptnxkL9KaDmUt7vkl)
+2024-10-22 15:37:23,728 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:38:23,914 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:39:15,563 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-22 15:39:15,567 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:39:15,567 - INFO - Deleted Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx from local folder.
+2024-10-22 15:39:16,183 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1_LIhwGf0FR-Ansx33h9pJGbGzWmvud0y?
+2024-10-22 15:39:16,541 - INFO - Deleted file with ID 1_LIhwGf0FR-Ansx33h9pJGbGzWmvud0y from Google Drive.
+2024-10-22 15:40:04,393 - INFO - Deleted FInal APA Research Paper.docx from local folder.
+2024-10-22 15:40:04,396 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\FInal APA Research Paper.docx
+2024-10-22 15:40:04,962 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27FInal+APA+Research+Paper.docx%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:40:05,152 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1Cim9rFKMK_cl_XuOR0HxXndtpLnCovVM?
+2024-10-22 15:40:05,867 - INFO - Deleted file with ID 1Cim9rFKMK_cl_XuOR0HxXndtpLnCovVM from Google Drive.
+2024-10-22 15:40:48,926 - INFO - Deleted Healthcare rationing.docx from local folder.
+2024-10-22 15:40:49,046 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Healthcare rationing.docx
+2024-10-22 15:40:49,051 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Healthcare+rationing.docx%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:40:49,487 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1Y_CgVwgQln3LodRuoafM5Vz-LML_WJQP?
+2024-10-22 15:40:50,011 - INFO - Deleted file with ID 1Y_CgVwgQln3LodRuoafM5Vz-LML_WJQP from Google Drive.
+2024-10-22 15:41:38,677 - INFO - Deleted pt-2-final.pptx from local folder.
+2024-10-22 15:41:38,678 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\pt-2-final.pptx
+2024-10-22 15:41:38,807 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27pt-2-final.pptx%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:41:39,750 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1LgecxTZSZVph-xuptnxkL9KaDmUt7vkl?
+2024-10-22 15:41:40,337 - INFO - Deleted file with ID 1LgecxTZSZVph-xuptnxkL9KaDmUt7vkl from Google Drive.
+2024-10-22 15:42:31,403 - INFO - Deleted Week 2 Assignment - Ethics.docx from local folder.
+2024-10-22 15:42:31,537 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Week 2 Assignment - Ethics.docx
+2024-10-22 15:42:31,542 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Week+2+Assignment+-+Ethics.docx%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-22 15:42:32,018 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1rFsR_80iJ0PUHzHrHQbLjMvxAiBmBA79?
+2024-10-22 15:42:32,358 - INFO - Deleted file with ID 1rFsR_80iJ0PUHzHrHQbLjMvxAiBmBA79 from Google Drive.
+2024-10-22 15:43:02,509 - INFO - Stopping observer due to keyboard interrupt.
+2024-10-23 09:11:20,056 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-10-23 09:11:20,063 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-10-23 09:11:20,264 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2024-10-23 09:11:20,268 - INFO - Successfully authenticated with Google Drive.
+2024-10-23 09:11:20,276 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-10-23 09:11:20,361 - INFO - Started monitoring local folder for changes.
+2024-10-23 09:11:20,372 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 09:11:36,888 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\roscoe cam'
+2024-10-23 09:12:36,899 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 09:12:40,437 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-23 09:12:41,907 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 09:12:55,586 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\roscoe cam'
+2024-10-23 09:12:59,197 - INFO - Uploaded Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx to Google Drive (ID: 1Vqa59IHvLijQu5JWGSdvWxWhmI3QAxm0)
+2024-10-23 09:12:59,197 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-23 09:12:59,210 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 09:13:04,397 - INFO - Uploaded Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx to Google Drive (ID: 1lmF9eHAaudz0n7PcnsHLLKh7j0YWquk3)
+2024-10-23 09:13:55,597 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 09:14:13,875 - INFO - Deleted Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx from local folder.
+2024-10-23 09:14:14,046 - INFO - Detected deletion: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-23 09:14:14,051 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=name%3D%27Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx%27+and+%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents&fields=files%28id%2C+name%29&alt=json
+2024-10-23 09:14:14,737 - DEBUG - URL being requested: DELETE https://www.googleapis.com/drive/v3/files/1lmF9eHAaudz0n7PcnsHLLKh7j0YWquk3?
+2024-10-23 09:14:15,147 - INFO - Deleted file with ID 1lmF9eHAaudz0n7PcnsHLLKh7j0YWquk3 from Google Drive.
+2024-10-23 09:14:31,482 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\roscoe cam'
+2024-10-23 09:15:31,492 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 09:15:32,637 - INFO - Stopping observer due to keyboard interrupt.
+2024-10-23 13:40:29,756 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-10-23 13:40:29,758 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-10-23 13:40:29,963 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+2024-10-23 13:40:29,965 - INFO - Successfully authenticated with Google Drive.
+2024-10-23 13:40:29,970 - INFO - file_cache is only supported with oauth2client<4.0.0
+2024-10-23 13:40:29,974 - INFO - Started monitoring local folder for changes.
+2024-10-23 13:40:29,978 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:40:40,753 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:41:40,764 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:41:59,452 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:42:59,459 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:43:16,272 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:44:16,280 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:44:32,619 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:45:32,626 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:45:48,949 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:46:48,957 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:47:05,631 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:48:05,638 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:48:21,537 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:49:21,546 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:49:37,673 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:50:37,683 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:50:54,033 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:51:54,040 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:52:10,962 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:53:10,971 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:53:27,067 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:54:27,074 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:54:43,192 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:55:43,199 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:55:59,053 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:56:59,061 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:57:15,312 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:58:15,311 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:58:31,266 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 13:59:31,259 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 13:59:47,085 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:00:47,078 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:01:03,121 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:02:03,114 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:02:18,859 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:03:18,853 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:03:35,239 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:04:35,231 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:04:51,566 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:05:51,559 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:06:07,462 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:07:07,454 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:07:23,600 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:08:23,592 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:08:39,536 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:09:39,531 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:09:55,450 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:10:55,444 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:11:11,344 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:12:11,342 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:12:28,002 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:13:27,994 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:13:43,564 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:14:43,557 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:14:59,314 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:15:59,310 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:16:15,224 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:17:15,221 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:17:31,314 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:18:31,312 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:18:47,378 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:19:47,376 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:20:02,310 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:21:02,307 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:21:16,567 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:22:16,565 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:22:32,708 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:23:32,706 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:23:46,841 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:24:46,837 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:25:02,343 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:26:02,340 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:26:16,486 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:27:16,484 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:27:32,758 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:28:32,755 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:28:46,959 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:29:46,958 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:30:01,584 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:31:01,581 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:31:17,322 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:32:17,321 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:32:33,292 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:33:33,294 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:33:49,183 - ERROR - Error syncing Drive to local: [WinError 5] Access is denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat'
+2024-10-23 14:34:08,890 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\google drive uploader bat\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-23 14:34:08,890 - ERROR - Failed to upload Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx: [Errno 13] Permission denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat\\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx'
+2024-10-23 14:34:08,891 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\google drive uploader bat\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-23 14:34:08,891 - ERROR - Failed to upload Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx: [Errno 13] Permission denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat\\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx'
+2024-10-23 14:34:08,898 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\google drive uploader bat\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-23 14:34:08,898 - ERROR - Failed to upload Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx: [Errno 13] Permission denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\google drive uploader bat\\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx'
+2024-10-23 14:34:10,376 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-23 14:34:10,376 - ERROR - Failed to upload Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx: [Errno 13] Permission denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx'
+2024-10-23 14:34:10,377 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-23 14:34:10,377 - ERROR - Failed to upload Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx: [Errno 13] Permission denied: 'C:\\Users\\Nathan\\OneDrive\\OneDriveLAPTOPCloudDownloads\\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx'
+2024-10-23 14:34:10,381 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-23 14:34:10,504 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:28,147 - INFO - Uploaded Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx to Google Drive (ID: 1cwXwNwbKX2JrUUtjGyfN2PYYhyvUOtx-)
+2024-10-23 14:34:28,147 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\__pycache__\drive_sync_service.cpython-312.pyc
+2024-10-23 14:34:28,160 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:29,539 - INFO - Uploaded drive_sync_service.cpython-312.pyc to Google Drive (ID: 1df2bqV8tfBe32eW3fms6MUBRGz6LwbbZ)
+2024-10-23 14:34:29,539 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\__pycache__\drive_sync_service.cpython-312.pyc
+2024-10-23 14:34:29,551 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:31,220 - INFO - Uploaded drive_sync_service.cpython-312.pyc to Google Drive (ID: 1UJ3UCnrMOVsItj8VrOBtzPYilFAP1hUi)
+2024-10-23 14:34:31,220 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\__pycache__\enhanced_auto_sync_to_drive.cpython-312.pyc
+2024-10-23 14:34:31,240 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:32,829 - INFO - Uploaded enhanced_auto_sync_to_drive.cpython-312.pyc to Google Drive (ID: 1MLyYCWlhhwW4aXdq922c7yBru_6Ii-46)
+2024-10-23 14:34:32,829 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\__pycache__\enhanced_auto_sync_to_drive.cpython-312.pyc
+2024-10-23 14:34:32,840 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:34,505 - INFO - Uploaded enhanced_auto_sync_to_drive.cpython-312.pyc to Google Drive (ID: 1BLgfBarxR9FKu1-OjvkxieUyKETH8JcV)
+2024-10-23 14:34:34,506 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\drive_sync_service.py
+2024-10-23 14:34:34,553 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:36,440 - INFO - Uploaded drive_sync_service.py to Google Drive (ID: 1_u0yeKFQXR8LWAhsF6f97VXrzfYI12UY)
+2024-10-23 14:34:36,440 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\drive_sync_service.py
+2024-10-23 14:34:36,450 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:37,978 - INFO - Uploaded drive_sync_service.py to Google Drive (ID: 1s25LmHBNluwYZvJX8_a9h-4wFb2nCyBT)
+2024-10-23 14:34:37,978 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\enhanced_auto_sync_to_drive.py
+2024-10-23 14:34:38,022 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:39,717 - INFO - Uploaded enhanced_auto_sync_to_drive.py to Google Drive (ID: 10N-Gl2vNOnDzhZC2fAWhDAs7vOLQLAdS)
+2024-10-23 14:34:39,717 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\enhanced_auto_sync_to_drive.py
+2024-10-23 14:34:39,725 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:41,531 - INFO - Uploaded enhanced_auto_sync_to_drive.py to Google Drive (ID: 1Oh2GYeFvoV0-k00GbRJ8nmy6XpwO2-1Z)
+2024-10-23 14:34:41,532 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\sync_log.log
+2024-10-23 14:34:41,564 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:42,865 - INFO - Uploaded sync_log.log to Google Drive (ID: 1wDzaRnxZkAJcsuiuKaUOAXPiaV-GzoFG)
+2024-10-23 14:34:42,865 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\sync_log.log
+2024-10-23 14:34:42,873 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:44,291 - INFO - Uploaded sync_log.log to Google Drive (ID: 19GVvQ-ekR0VcFv7aoE8Pcp7zMIn-CZ0b)
+2024-10-23 14:34:44,291 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\thing.py
+2024-10-23 14:34:44,341 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:46,063 - INFO - Uploaded thing.py to Google Drive (ID: 1O7ISdLUCcog5EM3jiyREV9R0SvRGGsvN)
+2024-10-23 14:34:46,064 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\thing.py
+2024-10-23 14:34:46,072 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:47,805 - INFO - Uploaded thing.py to Google Drive (ID: 1f0dN4qalldjcARFN5cPgjoTh_6PKnkVE)
+2024-10-23 14:34:47,806 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\token.json
+2024-10-23 14:34:47,816 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:34:49,184 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:34:49,439 - ERROR - SSL error while uploading token.json: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2570)
+2024-10-23 14:34:49,440 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\token.json
+2024-10-23 14:34:49,441 - ERROR - Error syncing Drive to local: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2570)
+2024-10-23 14:34:49,448 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:35:31,596 - INFO - Uploaded token.json to Google Drive (ID: 1bamjcUJnRYEVuGVE9TiG3rmTCGosoUB1)
+2024-10-23 14:35:31,596 - INFO - Detected modification: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx
+2024-10-23 14:35:31,605 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
+2024-10-23 14:35:49,443 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:35:51,796 - ERROR - SSL error while uploading Enhancing-Womens-Health-Education-in-Prenatal-Clinics_1.pptx: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2570)
+2024-10-23 14:35:51,797 - ERROR - Error syncing Drive to local: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2570)
+2024-10-23 14:36:51,795 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%271pMaLxGCBpQTj8qncccvgI06H7Pd0u28I%27+in+parents+and+trashed%3Dfalse&fields=files%28id%2C+name%29&alt=json
+2024-10-23 14:36:51,795 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-10-23 14:36:52,932 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files/1BLgfBarxR9FKu1-OjvkxieUyKETH8JcV?alt=media
+2024-10-23 14:36:52,933 - INFO - Detected new file: C:\Users\Nathan\OneDrive\OneDriveLAPTOPCloudDownloads\enhanced_auto_sync_to_drive.cpython-312.pyc
+2024-10-23 14:36:52,939 - DEBUG - URL being requested: POST https://www.googleapis.com/upload/drive/v3/files?fields=id&alt=json&uploadType=resumable
